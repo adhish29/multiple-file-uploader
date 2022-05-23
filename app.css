@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;00&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f7ffff;
+}
+
+.app {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 450px;
+  max-width: 760px;
+  margin: 0 20px;
+  background-color: rgb(238, 243, 245);
+  padding: 15px 20px;
+  border-radius: 5px;
+  box-shadow: -1px 0px 10px 1px rgba(144, 157, 201, 0.726);
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+  color: rgb(116, 27, 199);
+
+  font-weight: bold;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#inpFile::-webkit-file-upload-button {
+  background-color: rgb(75, 77, 219);
+  width: 50%;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#inpFile::-webkit-file-upload-button:hover {
+  background-color: rgb(51, 53, 185);
+}
+
+.btn {
+  /* background-color: rgb(75, 77, 219); */
+  background-color: rgb(75, 77, 219);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: rgb(51, 53, 185);
+}
